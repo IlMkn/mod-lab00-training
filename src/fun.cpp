@@ -3,9 +3,9 @@
 
 int64_t power(int64_t x, uint16_t n) {
     int result = 0;
-    if (n == 0)
+    if (n == 0) {
         result = 1;
-    else {
+    } else {
         result = x;
         for (int i = 1; i < n; i++) {
             result = result * x;
