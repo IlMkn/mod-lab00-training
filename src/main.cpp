@@ -5,5 +5,9 @@ using namespace std;
 
 int main() 
 {
-    return 0;
+    int a = 2;
+    int b = 4;
+
+    int result = power(a, b);
+    return result;
 }
