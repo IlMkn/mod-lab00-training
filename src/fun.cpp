@@ -9,7 +9,7 @@ int64_t power(int64_t x, uint16_t n)
     else
     {
         result = x;
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i < n; i++)
         {
             result = result * x;
         }
